@@ -1,8 +1,8 @@
 <?php
 define('HOST','localhost');
-define('USER', '24830_db');
-define('PASS', '24830db');
-define('DBNAME', '24830_db');
+define('USER', '*******');
+define('PASS', '*******');
+define('DBNAME', '******');
 
 $mysqli = new mysqli(HOST, USER,PASS,DBNAME) or die ('Error connecting.');
 
